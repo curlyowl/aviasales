@@ -1,6 +1,9 @@
+body {
+  background-color: #E5E5E5;
+}
+
 .App {
   text-align: center;
-  display: flex;
 }
 
 .App-content {
