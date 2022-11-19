@@ -6,11 +6,17 @@ import Logo from './Logo.svg';
 function App() {
   return (
     <div className="App">
-      <header>
+      <header className="App-header">
         <img src={Logo} />
       </header>
-      <section className="App-content">
-        <Button>Показать еще 5 билетов!</Button>
+      <section className="App-body">
+        <aside className="App-menu">
+          Фильтры
+        </aside>
+        <section className="App-content">
+          <div className="App-tickets">Билеты</div>
+          <Button>Показать еще 5 билетов!</Button>
+        </section>
       </section>
     </div>
   );
