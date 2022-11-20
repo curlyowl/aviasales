@@ -4,7 +4,7 @@ import './Ticket.css';
 export const Ticket = () => {
   return (
     <div className="App-ticket">
-      1
+      Тикет
     </div>
   );
 }
