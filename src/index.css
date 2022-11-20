@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
+:root {
+  --main-bg: #F3F7FA;
+  --blue: #2196F3;
+  --grey: #4A4A4A;
+  --white: #fff;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -7,8 +14,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
-  background-color: #F3F7FA;
-  color: #4A4A4A;
+  background-color: var(--main-bg);
+  color: var(--grey);
   font-style: normal;
   font-weight: 600;
   line-height: 12px;

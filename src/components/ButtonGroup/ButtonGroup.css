@@ -7,12 +7,12 @@
 
 button {
   font-family: inherit;
-  background: #FFFFFF;
+  background: var(--white);
   border: 0;
   outline: 1px solid #DFE5EC;
   border-collapse: collapse;
   border-radius: 0;
-  color: #4A4A4A;
+  color: var(--grey);
 
   /* настройки текста */
   text-align: center;
@@ -28,8 +28,8 @@ button {
 }
 
 button:hover {
-  color: #fff;
-  background: #2196F3;
+  color: var(--white);
+  background: var(--blue);
 }
 
 button:first-child {
