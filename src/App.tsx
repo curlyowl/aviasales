@@ -4,6 +4,7 @@ import { Button } from './components/Button';
 import { ButtonGroup } from './components/ButtonGroup';
 import './App.css';
 import Logo from './Logo.svg';
+import { Tickets } from './components/Tickets';
 
 function App() {
   return (
@@ -13,12 +14,13 @@ function App() {
       </header>
       <section className="App-body">
         <aside className="App-menu">
+          {/* todo: Заголовок сделай частью фильтров   */}
           Количество пересадок
           <Filters />
         </aside>
         <section className="App-content">
           <ButtonGroup />
-          <div className="App-tickets">Билеты</div>
+          <Tickets />
           <Button>Показать еще 5 билетов!</Button>
         </section>
       </section>

@@ -5,6 +5,7 @@
   --blue: #2196F3;
   --grey: #4A4A4A;
   --white: #fff;
+  --base-radius: 5px;
 }
 
 * {
