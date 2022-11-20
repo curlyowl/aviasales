@@ -1,4 +1,5 @@
 import React from 'react';
+import { Filters } from './components/Filters';
 import { Button } from './components/Button';
 import { ButtonGroup } from './components/ButtonGroup';
 import './App.css';
@@ -12,7 +13,8 @@ function App() {
       </header>
       <section className="App-body">
         <aside className="App-menu">
-          Фильтры
+          Количество пересадок
+          <Filters />
         </aside>
         <section className="App-content">
           <ButtonGroup />

@@ -1,0 +1,29 @@
+.App-filters {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+  margin: 20px 0 0;
+}
+
+li {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  text-transform: none;
+  color: #4A4A4A;
+  padding: 10px 20px;
+}
+
+li:hover {
+  background: #F1FCFF;
+}
+
+input[type="checkbox"] {
+  border: 1px solid #2196F3;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  margin: 0 10px 0 0;
+}
