@@ -4,3 +4,46 @@
   border-radius: var(--base-radius);
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
 }
+
+.App-ticketRow {
+  display: flex;
+}
+
+.App-ticketRow+.App-ticketRow {
+  margin-top: 10px;
+}
+
+.App-ticketHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+  margin-bottom: 20px;
+}
+
+.App-ticketPrice {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.App-ticketDetails {
+  width: 141px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.App-ticketTitle {
+  color: rgba(160, 176, 185, 1);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.App-ticketInfo {
+  font-weight: 600;
+  font-size: 14;
+  line-height: 14px;
+  color: rgba(74, 74, 74, 1);
+}
